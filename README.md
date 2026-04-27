@@ -1,6 +1,6 @@
 <h1 align="center"> PetShop - LandingPage</h1>
 <p align="center">
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+    <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" alt="badge">
 </p>
 <p align="center">
 Landing page fictícia de um petshop desenvolvida como projeto de portfólio durante o segundo período do curso de Engenharia de Software.
