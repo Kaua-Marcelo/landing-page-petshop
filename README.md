@@ -1,8 +1,11 @@
 <h1 align="center"> PetShop - LandingPage</h1>
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-
 <p align="center">
-Landing page fictícia de um petshop desenvolvida como projeto de portfólio durante o segundo período do curso de Engenharia de Software. <br/>
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+</p>
+<p align="center">
+Landing page fictícia de um petshop desenvolvida como projeto de portfólio durante o segundo período do curso de Engenharia de Software.
+</p> 
+<br/>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
