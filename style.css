@@ -1,0 +1,271 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #FFFDF8;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.logo {
+    display: flex;
+    margin: 10px 0;
+}
+
+.itens {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.itens a {
+    text-decoration: none;
+    color: #333
+}
+
+.itens a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+.agenda {
+    border-radius: 20px;
+    padding: 7px 15px;
+    border: none;
+    background-color: blue;
+    color: white;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.agenda:hover {
+    background:darkblue;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.descricao {
+    padding: 20px;
+}
+
+.descricao .title {
+    color: Blue;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: rgba(100, 149, 237, 0.20);
+    padding: 2px 20px;
+    border-radius: 20px;
+    
+}
+
+.descricao span {
+    color: blue;
+    font-weight: bold;
+}
+
+.descricao h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.descricao p {
+    max-width: 400px;
+}
+
+.descricao button {
+    border-radius: 20px;
+    border: none;
+    font-size: 13px;
+    padding: 7px 15px;
+}
+
+.cards {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;  
+}
+
+.cards p {
+     font-family: 'Playfair Display', serif;
+     color: #333;
+}
+
+.vip {
+    color: gold;
+}
+
+.vip-fundo {
+    background-color: rgba(100, 149, 237, 0.095);
+    padding: 2px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: blue;
+}
+
+.cards h3 {
+     font-family: 'Playfair Display', serif;
+     color: blue;
+     font-size: 30px;
+     margin: 0px;
+}
+
+.card1, .card2, .card3 {
+    width: 250px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 255, 0.127);
+}
+
+.card1 img, .card2 img, .card3 img {
+    width: 150px;
+    padding: 5px;
+}
+
+.card1 img {
+    margin-right: 25px;
+}
+
+.card1 { 
+    transform: rotate(-5deg); 
+}
+.card2 { 
+    transform: rotate(2deg); 
+}
+.card3 {
+     transform: rotate(-2deg); 
+}
+
+.btServicos {
+    transition: 0.3s;
+}
+
+.btServicos a {
+    text-decoration: none;
+    color: black;
+}
+
+.btServicos:hover{
+    transform: scale(1.05);    
+    cursor: pointer;
+}
+
+.infos ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.infos li h2 {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.infos li p {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+#servicos {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#servicos .descricao p {
+    max-width: 600px;
+}
+
+.cardsServicos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardBanho img, .cardVet img, .cardDentista img, .cardHotel img {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    object-fit: cover;
+    align-items: baseline;
+}
+
+.cardBanho, .cardVet, .cardDentista, .cardHotel {
+    width: 200px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.cardBanho:hover, .cardVet:hover, .cardDentista:hover, .cardHotel:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 255, 0.127);
+}
+
+.consultaGratis {
+    background-color: rgba(76, 133, 240, 0.311);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.consultaGratis h2 {
+    font-size: 30px;
+}
+
+.consultaGratis .descricao {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.consultaGratis button {
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.consultaGratis .descricao span {
+    color: blue;
+}
+
