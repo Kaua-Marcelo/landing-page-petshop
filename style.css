@@ -269,3 +269,31 @@ header {
     color: blue;
 }
 
+#sobre {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardImg {
+    position: relative;
+}
+
+.cardAnos {
+  position: absolute;
+  bottom: 30px;
+  right: -20px;
+  background-color: blue;
+  color: white;
+  border-radius: 25px;
+  padding: 14px 18px;
+  text-align: center;
+}
+
+.cardAnos h2 {
+    margin: 0;
+}
+
+.cardAnos p {
+  margin: 0;
+  font-size: 11px;
+}
