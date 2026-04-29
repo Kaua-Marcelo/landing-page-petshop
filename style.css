@@ -271,6 +271,11 @@ header {
 #sobre {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+}
+
+#sobre .descricao {
+    margin-left: 50;
 }
 
 .cardImg img {
@@ -307,4 +312,13 @@ header {
 .cardAnos p {
   margin: 0;
   font-size: 20px;
+}
+
+#sobre .descricao p {
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.nome {
+    font-weight: bold;
 }
