@@ -326,8 +326,8 @@ header {
 #contatos {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 40px;
+    align-items: center;
+    padding: 0px 60px;
     gap: 20px;
     border-top: 1px solid #ccc;
 }
@@ -336,8 +336,8 @@ header {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .redes-sociais a {
@@ -346,6 +346,7 @@ header {
     align-items: center;
     gap: 10px;
     color: white;
+    transition: 0.3s;
 }
 
 .redes-sociais i {
@@ -354,12 +355,12 @@ header {
 }
 
 .redes-sociais a:hover {
-    font-weight: bold;
-    transform: scale(1.05);
+    transform: translateX(5px);
 }
 
 .localizacao h2 {
     margin-bottom: 10px;
+    margin-top: 6px;
 }
 
 .localizacao {
@@ -369,10 +370,32 @@ header {
 }
 
 footer {
-    background-color: blue;
+    background-color: #1a1aff;
     color: white;
 }
 
 .localizacao iframe {
     border-radius: 15px;
+    width: 300px;
+    height: 150px;
+}
+
+#contatos h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid white;
+}
+
+.contatos p {
+    margin: 6px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 12px;
+    font-size: 13px;
 }
