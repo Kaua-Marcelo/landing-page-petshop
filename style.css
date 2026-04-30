@@ -327,7 +327,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 20px;
+    padding: 40px;
     gap: 20px;
     border-top: 1px solid #ccc;
 }
@@ -345,6 +345,7 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
+    color: white;
 }
 
 .redes-sociais i {
@@ -352,8 +353,26 @@ header {
     line-height: 1;
 }
 
+.redes-sociais a:hover {
+    font-weight: bold;
+    transform: scale(1.05);
+}
+
+.localizacao h2 {
+    margin-bottom: 10px;
+}
+
 .localizacao {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+}
+
+.localizacao iframe {
+    border-radius: 15px;
 }
