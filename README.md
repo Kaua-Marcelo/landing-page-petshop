@@ -13,7 +13,7 @@ Landing page fictícia de um petshop desenvolvida como projeto de portfólio dur
 </p>
 
 <p align="center">
-    <img src="assets/site.png" width="100%" alt="LandingPage">
+    <img src="assets/autalizacao.png" width="100%" alt="LandingPage">
 </p>
 
 
