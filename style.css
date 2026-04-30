@@ -9,12 +9,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-header {
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
 #navBar {
     display: flex;
     justify-content: space-between;
@@ -63,8 +57,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 20px;
+    padding: 30px 30px;
     border-bottom: 1px solid #ddd;
+    min-height: calc(100dvh - 130px);
+    box-sizing: border-box;
 }
 
 .descricao {
@@ -135,12 +131,12 @@ header {
 }
 
 .card1, .card2, .card3 {
-    width: 250px;
+    width: 280px;
     background-color: white;
     border-radius: 25px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s;
+    transition: transform 0.3s
 }
 
 .card1:hover, .card2:hover, .card3:hover {
@@ -149,7 +145,7 @@ header {
 }
 
 .card1 img, .card2 img, .card3 img {
-    width: 150px;
+    width: 200px;
     padding: 5px;
 }
 
@@ -388,4 +384,48 @@ footer {
     text-align: center;
     padding: 12px;
     font-size: 13px;
+}
+
+.stamp {
+    color: rgb(255, 145, 0);
+}
+
+.trophy {
+    color: gold;
+}
+
+.heart {
+    color: red;
+}
+
+.star {
+    color: #ffcb0c;
+    padding: 0 2px;
+}
+
+.avaliacao-google {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.selos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.selos i {
+    margin-right: 5px;
 }
