@@ -137,7 +137,6 @@ header {
 .card1, .card2, .card3 {
     width: 250px;
     background-color: white;
-    color: black;
     border-radius: 25px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.15);
@@ -223,13 +222,11 @@ header {
     height: 150px;
     padding: 5px;
     object-fit: cover;
-    align-items: baseline;
 }
 
 .cardBanho, .cardVet, .cardDentista, .cardHotel {
     width: 200px;
     background-color: white;
-    color: black;
     border-radius: 25px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.15);
@@ -275,7 +272,7 @@ header {
 }
 
 #sobre .descricao {
-    margin-left: 50;
+    margin-left: 50px;
 }
 
 .cardImg img {
@@ -336,8 +333,6 @@ header {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    align-items: flex-start;
-    justify-content: flex-start;
 }
 
 .redes-sociais a {
@@ -351,16 +346,10 @@ header {
 
 .redes-sociais i {
     font-size: 30px;
-    line-height: 1;
 }
 
 .redes-sociais a:hover {
     transform: translateX(5px);
-}
-
-.localizacao h2 {
-    margin-bottom: 10px;
-    margin-top: 6px;
 }
 
 .localizacao {
