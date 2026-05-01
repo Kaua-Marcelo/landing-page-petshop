@@ -9,6 +9,11 @@ html {
     scroll-behavior: smooth;
 }
 
+footer {
+    background-color: #1a1aff;
+    color: white;
+}
+
 #navBar {
     display: flex;
     justify-content: space-between;
@@ -63,6 +68,13 @@ html {
     box-sizing: border-box;
 }
 
+#inicio .descricao h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    margin: 0px;
+    max-width: 400px;
+}
+
 .descricao {
     padding: 20px;
 }
@@ -81,13 +93,6 @@ html {
 .descricao span {
     color: blue;
     font-weight: bold;
-}
-
-#inicio .descricao h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 35px;
-    margin: 0px;
-    max-width: 400px;
 }
 
 .descricao p {
@@ -110,18 +115,6 @@ html {
 .cards p {
      font-family: 'Playfair Display', serif;
      color: #333;
-}
-
-.vip {
-    color: gold;
-}
-
-.vip-fundo {
-    background-color: rgba(100, 149, 237, 0.095);
-    padding: 2px 30px;
-    border-radius: 25px;
-    font-weight: bold;
-    color: blue;
 }
 
 .cards h3 {
@@ -164,6 +157,18 @@ html {
      transform: rotate(-2deg); 
 }
 
+.vip {
+    color: gold;
+}
+
+.vip-fundo {
+    background-color: rgba(100, 149, 237, 0.095);
+    padding: 2px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: blue;
+}
+
 .btServicos {
     transition: 0.3s;
 }
@@ -176,28 +181,6 @@ html {
 .btServicos:hover{
     transform: scale(1.05);    
     cursor: pointer;
-}
-
-.infos ul{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    gap: 30px;
-    background-color: blue;
-    color: white;
-}
-
-.infos li h2 {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.infos li p {
-    margin-top: 0;
-    font-size: 14px;
 }
 
 #servicos {
@@ -234,6 +217,28 @@ html {
 .cardBanho:hover, .cardVet:hover, .cardDentista:hover, .cardHotel:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 10px rgba(0, 0, 255, 0.127);
+}
+
+.infos ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.infos li h2 {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.infos li p {
+    margin-top: 0;
+    font-size: 14px;
 }
 
 .consultaGratis {
@@ -279,6 +284,11 @@ html {
     margin: 0px;
 }
 
+#sobre .descricao p {
+    max-width: 600px;
+    font-size: 20px;
+}
+
 .cardImg img {
     width: 100%;
     height: auto;
@@ -315,13 +325,22 @@ html {
   font-size: 20px;
 }
 
-#sobre .descricao p {
-    max-width: 600px;
-    font-size: 20px;
-}
-
 .nome {
     font-weight: bold;
+}
+
+#contatos h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid white;
+}
+
+.contatos p {
+    margin: 6px 0;
+    font-size: 14px;
+    line-height: 1.6;
 }
 
 #contatos {
@@ -362,29 +381,10 @@ html {
     align-items: flex-start;
 }
 
-footer {
-    background-color: #1a1aff;
-    color: white;
-}
-
 .localizacao iframe {
     border-radius: 15px;
     width: 200px;
     height: 100px;
-}
-
-#contatos h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 16px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid white;
-}
-
-.contatos p {
-    margin: 6px 0;
-    font-size: 14px;
-    line-height: 1.6;
 }
 
 .footer-bottom {
