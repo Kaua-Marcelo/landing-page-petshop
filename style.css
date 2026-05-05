@@ -436,3 +436,65 @@ footer {
 .selos i {
     margin-right: 5px;
 }
+
+@media (max-width: 768px) {
+
+    .itens {
+        display: none;
+    }
+
+    #inicio {
+        flex-direction: column;
+        text-align: center;
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .card1, .card2, .card3 {
+        transform: none;
+        width: 80%;
+    }
+
+    .selos {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .cardsServicos {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    #sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sobre .descricao {
+        margin-left: 0;
+    }
+
+    #contatos {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .localizacao {
+        align-items: center;
+    }
+
+    .localizacao iframe {
+        width: 100%;
+        height: 200px;
+    }
+}
